@@ -16,8 +16,8 @@
 
 //wifi配置参数
 #define NTP_SERVER     "pool.ntp.org"
-#define ETC_OFFSET     -5 * 3600   // 美国东部标准时间 UTC-5
-#define ETC_OFFSET_DST 0           // 如果暂时不考虑夏令时，写 0 就行
+#define ETC_OFFSET     -5 * 3600   
+#define ETC_OFFSET_DST 0          
 
 //jotstick参数配置
 #define VRX_PIN  23 // ESP32 pin GPIO23 (ADC3) connected to VRX pin
