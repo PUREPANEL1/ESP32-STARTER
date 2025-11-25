@@ -294,16 +294,12 @@ void printLocalTime() {
 
 void loop() {
 
-   button.loop(); // 按键必须每次循环检查
+   button.loop(); 
 
-	
-  // 检测按下：界面在 0,1,2 之间循环
-  if (button.isPressed()) {
 			
-		  
    
     if (button.isPressed()) { 
-			screenState = (screenState + 1) % 3; // 0 -> 1 -> 2 -> 0 -> ... 
+			screenState = (screenState + 1) % 3; 
 			Serial.print("Screen toggled! screenState = "); 
 			Serial.println(screenState); }
   }
